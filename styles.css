@@ -1,0 +1,21 @@
+:root {
+    --primary-background: green;
+    --primary-text: yellow;
+    --secondary-text: black;
+  }
+
+  .theme-picker {
+    float:right;
+    color: var(--secondary-text);
+  }
+
+  #todo-container {
+    background-color: var(--primary-background);
+    width: 20vw;
+    color: var(--primary-text);
+  }
+
+  li[data-status="done"]{
+    text-decoration: line-through;
+  }
+
